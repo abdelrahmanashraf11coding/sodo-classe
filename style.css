@@ -1,0 +1,34 @@
+section {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.child {
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+
+}
+.child1 {
+  background-color: red;
+  margin: 10px;
+  order: -1;
+}
+.child2 {
+  background-color: green;
+  margin: 10px;
+}
+.child3 {
+  background-color: blue;
+  margin: 10px;
+}
+.child4 {
+  background-color: yellow;
+  margin: 10px;
+}
